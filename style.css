@@ -1,0 +1,29 @@
+body{
+	overflow-y:hidden;
+}
+
+
+#bio {
+	font-family: mrs-eaves-xl-serif-narrow,serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align:center;
+    font-size:30px;
+}
+
+
+.clear {
+	opacity:70%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns:32% 32% 33%;
+  grid-template-rows: 32% 32% 33%;
+  column-gap: 40px;
+  min-height: 100vh;
+  grid-gap: 50px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+
+
